@@ -7,8 +7,9 @@
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <title>Shrikant Dhongade</title>
 
-	
 	  <!-- Bootstrap 4-->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" /> <!--for testimonial-->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -29,6 +30,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="Stylesheet/style.css">
     <!-- Stylesheet -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	
@@ -126,13 +128,15 @@
 		<div class="container">
 			<div class="wraper">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-12" data-aos="fade-up">
 						<div class="sectionthree-heading" style="padding-top: 5rem;">
 							<p style="font-size: 34px;">About<span style="color: #ed5a00;letter-spacing: 3px;"> Me</span></p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" data-aos="fade-right"
+				data-aos-offset="400"
+				data-aos-easing="ease-in-sine">
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 imgme">
 							<img src="img/face2.jpg" alt="section2img" width="100%" height="auto">
 						</div>
@@ -140,7 +144,7 @@
 						
 						</div>
 						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 imgme">
-							<div class="abouttxt">
+							<div data-aos="zoom-in-up" class="abouttxt">
 								<h3 class="abut-hed"><marquee behavior="scroll" direction="left">Hi, I’m Shrikant. Nice to meet you </marquee></h3>
 								<span class="abutform">I Am From ,</span><br>
 								<span class="abutform">Pune -<strong> Maharashtra.</strong></span>
@@ -165,34 +169,34 @@
 					<h1><img src="img/ajax-loader2.gif" alt="gif"></h1>
 					<div class="row">
 						<div class="col-lg-12">
-							<div class="sectionthree-heading">
+							<div class="sectionthree-heading" data-aos="fade-up">
 								<p style="font-size: 34px;">my <span style="color: #ed5a00;letter-spacing: 3px;">skills</span></p>
 								<h2>Expert in this technical web software</h2>
 							</div>
 						</div>
 					</div>
 					<div class="row skills-parent">
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/html.png" alt="html">
 								</div>
 								<div class="skills-name">
-									<p>html</p>
+									<p>html 5</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/css.png" alt="html">
 								</div>
 								<div class="skills-name">
-									<p>css</p>
+									<p>css 3</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/javascript.png" alt="html">
@@ -202,17 +206,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
-							<div class="skills-card">
-								<div class="skills-img zoomskill">
-									<img src="img/skill/bootstrap.png" alt="html">
-								</div>
-								<div class="skills-name">
-									<p>bootstrap</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/jquery.png" alt="html">
@@ -222,7 +216,17 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
+							<div class="skills-card">
+								<div class="skills-img zoomskill">
+									<img src="img/skill/bootstrap.png" alt="html">
+								</div>
+								<div class="skills-name">
+									<p>bootstrap</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/sass.png" alt="html">
@@ -232,7 +236,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/wordpress.png" alt="html">
@@ -242,7 +246,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/react.png" alt="html">
@@ -252,49 +256,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
-							<div class="skills-card">
-								<div class="skills-img zoomskill">
-									<img src="img/skill/github.png" alt="html">
-								</div>
-								<div class="skills-name">
-									<p>github</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
-							<div class="skills-card">
-								<div class="skills-img zoomskill">
-									<img src="img/skill/vscode.png" alt="html">
-								</div>
-								<div class="skills-name">
-									<p>vscode</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
-							<div class="skills-card">
-								<div class="skills-img zoomskill">
-									<img src="img/skill/photoshop.png" alt="html">
-								</div>
-								<div class="skills-name">
-									<p>photoshop</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
-							<div class="skills-card">
-								<div class="skills-img zoomskill">
-									<img src="img/skill/illustrator.png" alt="html">
-								</div>
-								<div class="skills-name">
-									<p>illustrator</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row skills-parent">
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/python.jpg" alt="html">
@@ -304,7 +266,49 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
+							<div class="skills-card">
+								<div class="skills-img zoomskill">
+									<img src="img/skill/github.png" alt="html">
+								</div>
+								<div class="skills-name">
+									<p>github</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
+							<div class="skills-card">
+								<div class="skills-img zoomskill">
+									<img src="img/skill/vscode.png" alt="html">
+								</div>
+								<div class="skills-name">
+									<p>vscode</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
+							<div class="skills-card">
+								<div class="skills-img zoomskill">
+									<img src="img/skill/photoshop.png" alt="html">
+								</div>
+								<div class="skills-name">
+									<p>photoshop</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row skills-parent">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
+							<div class="skills-card">
+								<div class="skills-img zoomskill">
+									<img src="img/skill/illustrator.png" alt="html">
+								</div>
+								<div class="skills-name">
+									<p>illustrator</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/sql2.png" alt="html">
@@ -314,7 +318,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-sm-4 col-lg-2" data-aos="zoom-in">
 							<div class="skills-card">
 								<div class="skills-img zoomskill">
 									<img src="img/skill/firebase.png" alt="html">
@@ -336,13 +340,13 @@
 			<h1><img src="img/ajax-loader2.gif" alt="gif"></h1>
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="sectionthree-heading">
+						<div class="sectionthree-heading" data-aos="fade-up">
 							<h2 class="resmypassion">My passion about the <marquee behavior="scroll" direction="down" style="text-align: center;height: 63px;">web software and <span style="color: #ed5a00;letter-spacing: 3px;">programming.</span></marquee></h2>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-3 brderinresponsive" style="border-right: 1px solid #6c757d;">
+					<div class="col-lg-3 brderinresponsive" style="border-right: 1px solid #6c757d;" data-aos="zoom-in-down">
 						<div class="skiliocnlg" style="text-align: center;">
 							<i class="fa fa-tachometer" style="font-size: 82px;font-size: 100px;padding: 14px;color: #ed5a00;"></i>
 						 </div>
@@ -352,7 +356,7 @@
 						<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>	
 					</div>
 					</div><!-- /.col-lg-4 -->
-					<div class="col-lg-3 brderinresponsive" style="border-right: 1px solid #6c757d;">
+					<div class="col-lg-3 brderinresponsive" style="border-right: 1px solid #6c757d;" data-aos="zoom-in-down">
 						<div class="skiliocnlg" style="text-align: center;">
 							<i class="fa fa-mobile" style="font-size: 82px;font-size: 100px;padding: 14px;color: #ed5a00;"></i>
 						</div>
@@ -362,7 +366,7 @@
 						<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>	
 					</div>
 					</div><!-- /.col-lg-4 -->
-					<div class="col-lg-3 brderinresponsive" style="border-right: 1px solid #6c757d;">
+					<div class="col-lg-3 brderinresponsive" style="border-right: 1px solid #6c757d;" data-aos="zoom-in-down">
 						<div class="skiliocnlg" style="text-align: center;">
 							<i class="fa fa-lightbulb-o" style="font-size: 82px;font-size: 100px;padding: 14px;color: #ed5a00;"></i>
 						</div>
@@ -372,7 +376,7 @@
 						<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>	
 					</div>
 					</div><!-- /.col-lg-4 -->
-					<div class="col-lg-3" style="border-right: 1px solid #6c757d;">
+					<div class="col-lg-3" style="border-right: 1px solid #6c757d;" data-aos="zoom-in-down">
 						<div class="skiliocnlg" style="text-align: center;">
 							<i class="fa fa-rocket" style="font-size: 82px;font-size: 100px;padding: 14px;color: #ed5a00;"></i>
 						 </div>
@@ -396,17 +400,17 @@
 		<div class="wraper">
 					<div class="row">
 						<div class="col-lg-12">
-							<div class="sectionthree-heading">
+							<div class="sectionthree-heading" data-aos="fade-up">
 								<p style="font-size: 34px;">My Latest <span style="color: #ed5a00;letter-spacing: 3px;">Works</span></p>
 								<h2>Here's some of my recent work</h2>
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-4">
+						<div class="col-lg-4" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
 							<div class="gridwork">
 								<figure class="effect-ruby">
-									<img src="img/work/screenshots/monstroid.PNG" alt="img13"/>
+									<img src="img/work/screenshots/fenko1.PNG" alt="img13"/>
 									<figcaption>
 										<h2>Fenko <span>site</span></h2>
 										<p>Fencko is my first website</p>
@@ -415,7 +419,7 @@
 								</figure>
 							</div>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
 							<div class="gridwork">
 								<figure class="effect-ruby">
 									<img src="img/work/screenshots/mievent.PNG" alt="img13"/>
@@ -427,7 +431,7 @@
 								</figure>
 							</div>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
 							<div class="gridwork">
 								<figure class="effect-ruby">
 									<img src="img/work/screenshots/contact1.PNG" alt="img13"/>
@@ -441,19 +445,19 @@
 						</div>
 						</div>
 						<div class="row">
-							<div class="col-lg-6 respvideo">
+							<div class="col-lg-6 respvideo" data-aos="zoom-in">
 								<video class="video-fluid" autoplay="" loop="" muted="" height="240" controls>
 									<source src="img/work/1.mp4" type="video/mp4">
 							   </video>
 							</div>
-							<div class="col-lg-6 respvideo">
+							<div class="col-lg-6 respvideo" data-aos="zoom-in">
 								<video class="video-fluid" autoplay="" loop="" muted="" height="240" controls>
 									<source src="img/work/2.mp4" type="video/mp4">
 							   </video>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-lg-4">
+							<div class="col-lg-4" data-aos="zoom-in">
 								<div class="gridwork">
 									<figure class="effect-ruby">
 										<img src="img/work/screenshots/mievent1.PNG" alt="img13"/>
@@ -465,7 +469,7 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-lg-4">
+							<div class="col-lg-4" data-aos="zoom-in">
 								<div class="gridwork">
 									<figure class="effect-ruby">
 										<img src="img/work/screenshots/venture1.PNG" alt="img13"/>
@@ -477,7 +481,7 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-lg-4">
+							<div class="col-lg-4" data-aos="zoom-in">
 								<div class="gridwork">
 									<figure class="effect-ruby">
 										<img src="img/work/screenshots/mievent2.PNG" alt="img13"/>
@@ -491,19 +495,19 @@
 							</div>
 							</div>
 							<div class="row">
-								<div class="col-lg-6 respvideo">
+								<div class="col-lg-6 respvideo" data-aos="zoom-in">
 									<video class="video-fluid" autoplay="" loop="" muted="" height="240" controls>
 										<source src="img/work/3.mp4" type="video/mp4">
 								   </video>
 								</div>
-								<div class="col-lg-6 respvideo">
+								<div class="col-lg-6 respvideo" data-aos="zoom-in">
 									<video class="video-fluid" autoplay="" loop="" muted="" height="240" controls>
 										<source src="img/work/venturecare1.mp4" type="video/mp4">
 								   </video>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-lg-4">
+								<div class="col-lg-4" data-aos="zoom-in">
 									<div class="gridwork">
 										<figure class="effect-ruby">
 											<img src="img/work/screenshots/venture2.PNG" alt="img13"/>
@@ -515,7 +519,7 @@
 										</figure>
 									</div>
 								</div>
-								<div class="col-lg-4">
+								<div class="col-lg-4" data-aos="zoom-in">
 									<div class="gridwork">
 										<figure class="effect-ruby">
 											<img src="img/work/screenshots/adharcaard.PNG" alt="img13"/>
@@ -527,7 +531,7 @@
 										</figure>
 									</div>
 								</div>
-								<div class="col-lg-4">
+								<div class="col-lg-4" data-aos="zoom-in">
 									<div class="gridwork">
 										<figure class="effect-ruby">
 											<img src="img/work/screenshots/mobile.PNG" alt="img13"/>
@@ -541,19 +545,19 @@
 								</div>
 								</div>
 								<div class="row">
-									<div class="col-lg-6 respvideo">
+									<div class="col-lg-6 respvideo" data-aos="zoom-in">
 										<video class="video-fluid" autoplay="" loop="" muted="" height="240" controls>
 											<source src="img/work/adharcard.mp4" type="video/mp4">
 									   </video>
 									</div>
-									<div class="col-lg-6 respvideo">
+									<div class="col-lg-6 respvideo" data-aos="zoom-in">
 										<video class="video-fluid" autoplay="" loop="" muted="" height="240" controls>
 											<source src="img/work/bulbonoff.mp4" type="video/mp4">
 									   </video>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-lg-4">
+									<div class="col-lg-4" data-aos="zoom-in">
 										<div class="gridwork">
 											<figure class="effect-ruby">
 												<img src="img/work/screenshots/amazon.PNG" alt="img13"/>
@@ -565,7 +569,7 @@
 											</figure>
 										</div>
 									</div>
-									<div class="col-lg-4">
+									<div class="col-lg-4" data-aos="zoom-in">
 										<div class="gridwork">
 											<figure class="effect-ruby">
 												<img src="img/work/screenshots/applesite.PNG" alt="img13"/>
@@ -577,7 +581,7 @@
 											</figure>
 										</div>
 									</div>
-									<div class="col-lg-4">
+									<div class="col-lg-4" data-aos="zoom-in">
 										<div class="gridwork">
 											<figure class="effect-ruby">
 												<img src="img/work/screenshots/monstroid.PNG" alt="img13"/>
@@ -591,12 +595,12 @@
 									</div>
 									</div>
 									<div class="row">
-										<div class="col-lg-6 respvideo">
+										<div class="col-lg-6 respvideo" data-aos="zoom-in">
 											<video class="video-fluid" autoplay="" loop="" muted="" height="240" controls>
 												<source src="img/work/cinum.mp4" type="video/mp4">
 										   </video>
 										</div>
-										<div class="col-lg-6 respvideo">
+										<div class="col-lg-6 respvideo" data-aos="zoom-in">
 											<video class="video-fluid" autoplay="" loop="" muted="" height="240" controls>
 												<source src="img/work/monstroid.mp4" type="video/mp4">
 										   </video>
@@ -616,13 +620,13 @@
 			<!--<h1><img src="img/ajax-loader2.gif" alt="gif"></h1>-->
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="sectionthree-heading">
+						<div class="sectionthree-heading" data-aos="fade-up">
 							<h2 class="resmypassion" style="padding-top: 4rem;"><span style="color: #ed5a00;letter-spacing: 3px;"> Testimonials<br><span style="color: #20c3cca6;">People I've worked with have said some nice things...</span></h2>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-12" data-aos="zoom-in">
 						<div class="wrap">
 
 							<span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
@@ -665,7 +669,7 @@
 									<img src="img/shalaka.jpg" alt="me">
 									</div>
 									<h2>shalaka shinde</h2>
-									<p>“Shrikant a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</p>                    
+									<p>“Working with the Shrikant it was a great experiance.Shrikant is a positive team member who enjoys challenging tasks that help him continue to grow.He is ethusiastic about learning new things.He alway ready to help everyone with his ideas & best suggestions.”</p>                    
 								</div>
 			
 								<div>
@@ -688,6 +692,8 @@
 	</div>
    </section>
   <!--Section six End-->
+
+
 <!--Section seven End-->
 <section id="conatct">
 	<div class="container">
@@ -695,14 +701,14 @@
 			<h1><img src="img/ajax-loader2.gif" alt="gif"></h1>
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="sectionthree-heading">
+						<div class="sectionthree-heading" data-aos="fade-up">
 							<p style="font-size: 34px;">Conatct<span style="color: #ed5a00;letter-spacing: 3px;"> Me</span></p>
 							<h2>I'm always open to discussion time spand</h2>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-12" data-aos="flip-right">
 						<!--<h1 class="brand"><span>Acme</span> Web Design</h1>-->
 							<div class="wrapper">
 							<div class="company-info">
@@ -766,13 +772,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-				<div class="footer-logo">
+				<div class="footer-logo" data-aos="zoom-in-up">
 					<center class="sidenavlogo" style="text-align: center;padding-top: 3rem;"><img src="img/logo.png" alt="mylodo" style="height: 38px;width:auto;">HRIKANT</center>
 				</div>
 			</div>
 		</div>
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12" data-aos="zoom-in-up">
 					<div class="sidenav-btm-icon" style="justify-content: center;">
 						<!--<div class="img-online">
 							<img src="img/camera11.jpg" alt="" width="auto" height="100px">
@@ -937,11 +943,17 @@ function closeNav() {
 					}
 				
 			})
+			
 	}
+	
 	</script>
 	<!--testimonial script-->
 	<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
 	<script src="main.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<!--testimonial script end-->
+	<script>
+		AOS.init();
+	  </script>
 </body>
 </html>
