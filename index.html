@@ -37,7 +37,7 @@
 <!-- Header -->
 <header class="headerq">
 	<div class="container-fluid">
-		<div id="mySidenav" class="sidenav">
+		<div id="mySidenav" class="sidenav" style="opacity: unset;">
 <!-- Start online my img show inside sidenav -->
 		<div class="sidenavaround">
 			<div class="avatar">
@@ -53,12 +53,12 @@
 		<p style="color: #cdcde8;font-size: 17px;font-family: sans-serif;"> Hello.. I am <span style="color: #74c2c0;">Shrikant Dhongade</span>, I am A Software Developer & UI UX Designer.</p>
 		</div>
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-arrow-circle-left"></i></a>
-		  <a href="#home" style="border-top:1px solid;"><i class="fa-spin icon-sidenav fa fa-home"></i>Home</a>
-		  <a href="#about"><i class="fa-spin icon-sidenav fa fa-address-card"></i>About</a>
-		  <a href="#skill"><i class="fa-spin icon-sidenav fa fa-hourglass-half"></i>Skill</a>
-		  <a href="#works"><i class="fa-spin icon-sidenav fa fa-desktop"></i>Works</a>
-		  <a href="#testim"><i class="fa-spin icon-sidenav fa fa-star"></i>Testimonials</a>
-		  <a href="#conatct"><i class="fa-spin icon-sidenav fa fa-user-circle"></i>Contact</a>
+		  <a href="#home" style="border-top:1px solid;" class="hidenavmenu"><i class="fa-spin icon-sidenav fa fa-home"></i>Home</a>
+		  <a href="#about"  class="hidenavmenu"><i class="fa-spin icon-sidenav fa fa-address-card"></i>About</a>
+		  <a href="#skill" class="hidenavmenu"><i class="fa-spin icon-sidenav fa fa-hourglass-half"></i>Skill</a>
+		  <a href="#works"  class="hidenavmenu"><i class="fa-spin icon-sidenav fa fa-desktop"></i>Works</a>
+		  <a href="#testim"  class="hidenavmenu"><i class="fa-spin icon-sidenav fa fa-star"></i>Testimonials</a>
+		  <a href="#conatct"  class="hidenavmenu"><i class="fa-spin icon-sidenav fa fa-user-circle"></i>Contact</a>
 		  
 			<div class="sidenav-btm-icon">
 				<a href="https://www.facebook.com/profile.php?id=100008907033739" class="fa fa-facebook"></a>
@@ -830,6 +830,16 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+
+</script>
+<script>
+$(".hidenavmenu").click(function () {
+        $("#mySidenav").css("display","none")
+    });
+	$(".sidenavdestop").click(function () {
+        $("#mySidenav").css("display","block")
+    });
+
 </script>
 <!-- End Script for toggle--> 
 <!--testimonial script-->
@@ -841,7 +851,7 @@ function closeNav() {
 		testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
 		testimLeftArrow = document.getElementById("left-arrow"),
 		testimRightArrow = document.getElementById("right-arrow"),
-		testimSpeed = 4500,
+		testimSpeed = 3500,
 		currentSlide = 0,
 		currentActive = 0,
 		testimTimer,
@@ -944,7 +954,7 @@ function closeNav() {
 			})
 			
 	}
-	
+
 	</script>
 	<!--testimonial script-->
 	<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
