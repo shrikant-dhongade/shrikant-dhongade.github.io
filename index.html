@@ -37,6 +37,17 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!--Type Text script-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+
+<style>
+.res-mobile-only {
+    display:none;
+  }
+@media only screen and (max-width: 600px) {
+  .res-mobile-only {
+    display:block;
+  }
+}
+</style>
 </head>
 <body>
 	
@@ -103,7 +114,7 @@
 </header>
 <!-- Header -->
 <!-- Section-1 -->
-    <section class="sectionfirst res-text-animated" id="home">
+    <section class="sectionfirst res-text-animated res-mobile-only" id="home">
 		<div class="container aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
 			<h1 class="home-title">Shrikant Dhongade</h1>
 			<div class="main-type">
